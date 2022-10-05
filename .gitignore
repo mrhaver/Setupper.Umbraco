@@ -1,0 +1,22 @@
+##
+## Umbraco CMS
+##
+
+# JSON schema file for appsettings.json
+appsettings-schema.json
+
+# SQLite database files
+umbraco/Data/*.sqlite.db
+umbraco/Data/*.sqlite.db-shm
+umbraco/Data/*.sqlite.db-wal
+
+# Media files
+wwwroot/media/
+
+/.vs/
+bin/
+obj/
+
+# Temp folder containing Examine indexes, NuCache, MediaCache, etc.
+VVSkunk.Web/umbraco/Data
+VVSkunk.Web/umbraco/Logs
